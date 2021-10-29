@@ -29,6 +29,10 @@ body > header > a{
     padding: 0 20px 0 20px;
     margin: 5px ;
     background-color: lightcyan;
+    text-decoration: none;
+}
+.navigation a{
+    text-decoration: none; 
 }
 body > main{
     grid-column-start: 1;
@@ -76,6 +80,7 @@ body > main > h1{
     background-color: lightgrey;
 }
 
+
 .navigation{
     list-style: none;
     padding: 0 20px 0 20px;
@@ -104,22 +109,28 @@ body > main > h1{
     background-color:lightgray;
 }
 .articl-1{ 
-    padding:10px ;
-    margin: 5px ; 
+    padding:5px ;
+    margin: 10px ; 
     grid-column-start: 1;
     grid-column-end: 2;
     grid-row-start: 3;
     grid-row-end: 4;
-    background-color:rgb(202, 225, 240);
+    background-color: lightgray; 
+}
+body > main > div {
+    column-count: 2;
+    column-gap: 30px;  
+}
+ 
 }
 .articl-2{
-    padding: 10px ;
-    margin: 5px ; 
+    padding: 5px ;
+    margin: 10px ; 
     grid-column-start: 2;
     grid-column-end: 3;
     grid-row-start: 3;
     grid-row-end: 4;
-    background-color:rgb(202, 225, 240);
+    background-color: lightcyan;  
 }
 
 .aside-unordered{
@@ -151,7 +162,7 @@ body > main > h1{
     
 }
 input[type=text] {
-    width: 50%%;
+    width: 50%;
     padding: 12px 20px;
     margin: 8px 0;
     box-sizing: border-box;
